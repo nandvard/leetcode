@@ -10,17 +10,12 @@
 class Solution(object):
     def maxPathSum(self, root):
         """
-        :type root: TreeNode
-        :rtype: int
-        
-        ---
         If all values are positive, to find max path sum,
         get 1-child max path of left subtree, and 1-child max path of right subtree
         note global path sum as sum of root + left1 + right1
         get max of left1,right1 and add it to root to return max 1-child path including root
         
         If any of left/right values are negative, just truncate them to 0
-        ---
         """
         
         def path1sum_(root):
