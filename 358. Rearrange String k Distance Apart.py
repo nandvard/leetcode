@@ -3,11 +3,6 @@
 class Solution(object):
     def rearrangeString(self, s, k):
         """
-        :type s: str
-        :type k: int
-        :rtype: str
-        
-        ---
         Like dealing cards to people
         e.g. aaaabbbbccdde
         Deal the most frequent characters into that many buckets
@@ -22,7 +17,6 @@ class Solution(object):
         abcd, abce, abd, ab
         
         If any bucket (except last) has length < k, return False
-        ----
         """
        
         # Sort characters by frequencies - highest first
