@@ -1,7 +1,5 @@
 # https://leetcode.com/problems/minimum-window-subsequence
 
-import collections
-
 class Solution(object):
     def minWindow(self, S, T):
         """
