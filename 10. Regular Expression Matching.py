@@ -3,11 +3,6 @@
 class Solution(object):
     def isMatch(self, s, p):
         """
-        :type s: str
-        :type p: str
-        :rtype: bool
-        
-        ---
         e.g. 
         abbc
         ab*c
@@ -17,7 +12,6 @@ class Solution(object):
         If there is no *, as usual check first character move to next in both string & regex
         If there is a *, we can either skip the regex and not match any characters in string,
         or match first character and move to next in string without moving regex
-        ---
         """
         
 
