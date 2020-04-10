@@ -5,11 +5,6 @@ import collections
 class Solution(object):
     def minWindow(self, S, T):
         """
-        :type S: str
-        :type T: str
-        :rtype: str
-        
-        ---
         Find subsequence containing T, and return ending index in S
         Improve subsequence by searching from right-left, to find best starting index in S
         Length = end-start index, check if it's minimum
@@ -21,7 +16,6 @@ class Solution(object):
         length = 5
         
         Repeat next subsequence search after start 5
-        ---
         """
         
         # Find - Get ending point of subsequence starting on/after index s
